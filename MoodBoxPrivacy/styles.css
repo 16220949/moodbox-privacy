@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px 'Songti SC'; font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">/* styles.css — </span><span class="s2">专业简洁风格，响应式</span><span class="s1"> &amp; </span><span class="s2">可直接放在仓库根目录</span><span class="s1"> */<br>
+:root{<br>
+--bg:#f6f8fb;<br>
+--card:#ffffff;<br>
+--muted:#6b7280;<br>
+--accent:#2b86f5;<br>
+--maxw:980px;<br>
+--radius:12px;<br>
+--gap:18px;<br>
+}</span></p>
+<p class="p1"><span class="s1">*{box-sizing:border-box}<br>
+html,body{height:100%;}<br>
+body{<br>
+margin:0;<br>
+font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;<br>
+background:var(--bg);<br>
+color:#111827;<br>
+-webkit-font-smoothing:antialiased;<br>
+-moz-osx-font-smoothing:grayscale;<br>
+line-height:1.6;<br>
+}</span></p>
+<p class="p1"><span class="s1">.container{<br>
+width:100%;<br>
+max-width:var(--maxw);<br>
+margin:0 auto;<br>
+padding:28px 20px;<br>
+}</span></p>
+<p class="p1"><span class="s1">.site-header{<br>
+background:linear-gradient(90deg, rgba(255,255,255,0.7), rgba(255,255,255,0.85));<br>
+border-bottom:1px solid rgba(16,24,40,0.06);<br>
+box-shadow:0 6px 18px rgba(13, 27, 56, 0.03);<br>
+position:sticky;<br>
+top:0;<br>
+z-index:40;<br>
+}</span></p>
+<p class="p1"><span class="s1">.header-inner{<br>
+display:flex;<br>
+align-items:center;<br>
+gap:16px;<br>
+padding:14px 0;<br>
+}</span></p>
+<p class="p1"><span class="s1">.site-logo{<br>
+width:64px;<br>
+height:64px;<br>
+object-fit:contain;<br>
+border-radius:10px;<br>
+background:linear-gradient(180deg, rgba(43,134,245,0.12), rgba(43,134,245,0.06));<br>
+padding:6px;<br>
+box-shadow:0 6px 18px rgba(43,134,245,0.06), inset 0 1px 0 rgba(255,255,255,0.5);<br>
+}</span></p>
+<p class="p1"><span class="s1">.brand h1{<br>
+margin:0;<br>
+font-size:20px;<br>
+letter-spacing:0.2px;<br>
+}</span></p>
+<p class="p1"><span class="s1">.brand .tagline{<br>
+margin:3px 0 0 0;<br>
+font-size:13px;<br>
+color:var(--muted);<br>
+}</span></p>
+<p class="p1"><span class="s1">/* </span><span class="s2">卡片样式</span><span class="s1"> */<br>
+.card{<br>
+background:var(--card);<br>
+border-radius:var(--radius);<br>
+padding:20px;<br>
+box-shadow:0 6px 22px rgba(16,24,40,0.04);<br>
+margin-bottom:var(--gap);<br>
+}</span></p>
+<p class="p1"><span class="s1">.intro p{color:var(--muted); font-size:15px}<br>
+.quick-facts{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);margin-top:10px}</span></p>
+<p class="p1"><span class="s1">/* </span><span class="s2">政策全文</span><span class="s1"> */<br>
+.full-policy h2{margin-top:8px}<br>
+.full-policy ul{margin:10px 0 16px 20px}<br>
+.full-policy p{color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">/* CTA */<br>
+.cta{text-align:center}<br>
+.cta h2{margin-bottom:8px}<br>
+.cta p{color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">/* Footer */<br>
+.site-footer{<br>
+margin-top:18px;<br>
+padding:18px 0;<br>
+border-top:1px solid rgba(16,24,40,0.04);<br>
+color:var(--muted);<br>
+font-size:14px;<br>
+}</span></p>
+<p class="p1"><span class="s1">/* </span><span class="s2">响应式</span><span class="s1"> */<br>
+@media (max-width:720px){<br>
+.brand h1{font-size:18px}<br>
+.site-logo{width:52px;height:52px}<br>
+.container{padding:20px}<br>
+.header-inner{gap:12px}<br>
+}</span></p>
+</body>
+</html>
